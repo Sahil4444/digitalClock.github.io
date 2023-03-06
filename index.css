@@ -1,0 +1,61 @@
+@font-face{
+    font-family:'digital-clock-font';
+    src: url('digital-7/digital-7.ttf');
+   }
+
+body .header{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(18, 17, 17);
+    color: #ffff;
+}
+
+body .container1 img{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 630px;
+}
+
+body .day{
+    color: #ffff;
+    font-family: 'digital-clock-font';
+    position: absolute;
+    font-size: 30px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body .timing{
+    font-family: 'digital-clock-font';
+    color: #ffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+body .timing h1{
+    font-size: 150px;
+    padding: 0 10px;
+}
+
+body .timing .sep{
+    padding-bottom: 20px;
+    font-size: 150px;
+}
+
+body .footer{
+    padding: 5px;
+    background-color: rgb(18, 17, 17);
+    color: #ffff;
+}
+
+body .footer h6{
+    text-align: center;
+    
+}
